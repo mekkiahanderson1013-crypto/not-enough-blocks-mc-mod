@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test-mod:cut_iron",
+    "test-mod:cut_iron_stairs",
+    "test-mod:cut_iron_slab"
+  ]
+}

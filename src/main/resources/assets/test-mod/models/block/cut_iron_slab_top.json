@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "test-mod:block/cut_iron_grid",
+    "side": "test-mod:block/cut_iron_long_bars",
+    "top": "test-mod:block/cut_iron_grid"
+  }
+}

@@ -2,6 +2,8 @@ package net.mekkiah.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mekkiah.testmod.blocks.ModBlocks;
+import net.mekkiah.testmod.item.ModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -15,13 +17,11 @@ public class TestMod implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	//comment
+
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

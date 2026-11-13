@@ -1,0 +1,8 @@
+{
+  "item.test-mod.example_item": "Example Item",
+  "block.test-mod.cut_emerald": "Cut Emerald",
+
+  "block.test-mod.cut_iron": "Cut Iron",
+  "block.test-mod.cut_iron_stairs": "Cut Iron Stairs",
+  "block.test-mod.cut_iron_slab": "Cut Iron Slab"
+}

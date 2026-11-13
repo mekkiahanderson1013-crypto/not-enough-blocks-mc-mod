@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "test-mod:block/cut_iron_slab"
+    },
+    "type=double": {
+      "model": "test-mod:block/cut_iron_long_bars"
+    },
+    "type=top": {
+      "model": "test-mod:block/cut_iron_slab_top"
+    }
+  }
+}

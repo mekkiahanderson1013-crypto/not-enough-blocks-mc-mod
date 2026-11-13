@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "test-mod:block/cut_iron_grid",
+    "side": "test-mod:block/cut_iron_long_bars"
+  }
+}
